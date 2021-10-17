@@ -15,32 +15,45 @@ body{
     color: rgb(241, 241, 241);
 }
 
+.inputDisplay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 p{
     text-align: center;
     font-size: 35px;
     padding: 15px;
     border: 1px solid white;
     background: #fff;
+    border-radius: 5px;
 }
 
 #input{
     width: 200px;
     height: 50px;
-    margin-left: 36%;
 }
 
 .container{
-    height: 50px;
-    position: relative;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .center {
     margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    position: relative;
+    top: 0%;
+    padding: 5px;
+    max-width: 500px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
 }
 
 .btn{

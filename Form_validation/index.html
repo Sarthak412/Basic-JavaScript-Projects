@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form Validation JS </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2> Create Account </h2>
+        </div>
+        <form class="form" id="form">
+            <div class="form-control">
+                
+                <label class="username"> Username </label>
+                <input type="text" id="username" placeholder="John">
+                <i class="far fa-check-circle"></i>
+                <i class="far fa-times-circle"></i>
+                <small> Incorrect input </small>
+            </div>
+            
+            <div class="form-control">    
+                <label class="email"> Email </label>
+                <input type="email" id="email" placeholder="xyz@gmail.com">
+                <i class="far fa-check-circle"></i>
+                <i class="far fa-times-circle"></i>
+                <small> Incorrect input </small>
+            </div>
+            
+            <div class="form-control">
+                <label class="password"> Password </label>
+                <input type="password" id="password" placeholder="Password">
+                <i class="far fa-check-circle"></i>
+                <i class="far fa-times-circle"></i>
+                <small> Incorrect input </small>
+            </div>
+            
+            <div class="form-control">
+                <label class="cpassword"> Confirm Password </label>
+                <input type="password" id="cpassword" placeholder="Confirm Password">
+                <i class="far fa-check-circle"></i>
+                <i class="far fa-times-circle"></i>
+                <small> Incorrect input </small>
+            </div>    
+                <button class="submitBtn"> Submit </button>
+            </div>
+        </form>
+
+    </div>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/9b8a51caf5.js" crossorigin="anonymous"></script>
+</body>
+</html>
